@@ -1,0 +1,172 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color:navy;
+  padding: 20px;
+}
+nav li {
+  text-align: right;
+  justify-content: center;
+  margin-left: 100px;
+  float:right;
+}
+nav h1{
+    color:red;
+    font-weight: 900;
+    font-size: 30px;
+}
+nav a {
+  text-decoration: none;
+  color:white;
+}
+
+.hero {
+  background-image: url("/home/rguktongole/Downloads/h1.jpeg");
+  background-size: cover;
+  background-position: center;
+  color:green;
+  text-align: center;
+  padding: 180px 0;
+}
+.hero p{
+  color:black;}
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #e68a00;
+}
+.ab{
+  text-align: center;
+  padding: 10px 0;
+  background-color:grey;
+  color: white;
+}
+.abc{
+  background-color:powderblue;
+  color: black;
+  text-align: center;
+  padding: 120px 0;
+}
+.abc h2{
+  font-size: large;
+  font-weight: 1000;
+  float:top;
+  margin-top: 20%;
+}
+.abc h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.abc p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.btn1{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn1:hover {
+  background-color:black;
+}
+.abc img{
+float:left;
+padding: top -9%;
+width: 38%;
+height:3%;
+ 
+}
+.b{
+  background-color:pink;
+  color: black;
+  text-align: center;
+  padding: 130px 0;
+}
+.b h2{
+  text-align: right;
+  font-size: larger;
+}
+.div{
+
+  float: left;
+  
+  width: 300px;
+  
+  }
+  .abc1{
+    background-color:papayawhip;
+    color: black;
+    text-align: center;
+    padding: 120px 0;
+  }
+  .abc1 h2{
+    font-size: large;
+    font-weight: 1000;
+    float:top;
+    margin-top: 20%;
+  }
+  .abc1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: blue;
+  }
+  .abc1 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .abc1 img{
+    float:right;
+    padding: top -9%;
+    width: 40%;
+    height:100%;
+  }
+  .q{
+    background-color:grey;
+    text-align: center;
+    padding: 120px 0;
+  }
+  .q h1{
+    color:red;
+  }
+  .btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .btn2:hover {
+    background-color:green;
+  }
